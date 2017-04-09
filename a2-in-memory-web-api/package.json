@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "a2-in-memory-web-api@0.1.12",
+        "scope": null,
+        "escapedName": "a2-in-memory-web-api",
+        "name": "a2-in-memory-web-api",
+        "rawSpec": "0.1.12",
+        "spec": "0.1.12",
+        "type": "version"
+      },
+      "/Users/vijesh/Documents/Projects/code/storyline-tracker"
+    ]
+  ],
+  "_from": "a2-in-memory-web-api@0.1.12",
+  "_id": "a2-in-memory-web-api@0.1.12",
+  "_inCache": true,
+  "_location": "/a2-in-memory-web-api",
+  "_nodeVersion": "5.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/a2-in-memory-web-api-0.1.12.tgz_1458786591826_0.29465681593865156"
+  },
+  "_npmUser": {
+    "name": "wardbell",
+    "email": "wardbell@hotmail.com"
+  },
+  "_npmVersion": "3.8.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "a2-in-memory-web-api@0.1.12",
+    "scope": null,
+    "escapedName": "a2-in-memory-web-api",
+    "name": "a2-in-memory-web-api",
+    "rawSpec": "0.1.12",
+    "spec": "0.1.12",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/a2-in-memory-web-api/-/a2-in-memory-web-api-0.1.12.tgz",
+  "_shasum": "b31c21a3bc61fb4b8732c030c9d1fd65d840f97d",
+  "_shrinkwrap": null,
+  "_spec": "a2-in-memory-web-api@0.1.12",
+  "_where": "/Users/vijesh/Documents/Projects/code/storyline-tracker",
+  "author": {
+    "name": "Ward R. Bell"
+  },
+  "bugs": {
+    "url": "https://github.com/wardbell/a2-in-memory-web-api/issues"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.12",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.6"
+  },
+  "description": "An in-memory web api for demos and tests",
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.0.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "http-server": "^0.9.0",
+    "jasmine-core": "~2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-cli": "^0.1.2",
+    "karma-jasmine": "^0.3.8",
+    "lite-server": "^2.1.0",
+    "live-server": "^0.9.2",
+    "rimraf": "^2.5.2",
+    "systemjs": "0.19.24",
+    "systemjs-builder": "^0.15.13",
+    "typescript": "^1.8.9",
+    "typings": "0.7.9",
+    "yargs": "^4.3.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b31c21a3bc61fb4b8732c030c9d1fd65d840f97d",
+    "tarball": "https://registry.npmjs.org/a2-in-memory-web-api/-/a2-in-memory-web-api-0.1.12.tgz"
+  },
+  "gitHead": "1a9b8e62b9efb233c2aba0a7e83e06413756df42",
+  "homepage": "https://github.com/wardbell/a2-in-memory-web-api#readme",
+  "keywords": [],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "wardbell",
+      "email": "wardbell@hotmail.com"
+    }
+  ],
+  "name": "a2-in-memory-web-api",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardbell/a2-in-memory-web-api.git"
+  },
+  "scripts": {
+    "build-and-test": "concurrently  \"npm run tsc\" \"npm run test\"",
+    "http-server": "tsc && http-server",
+    "lite": "lite-server",
+    "live": "live-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "test": "karma start karma.conf.js",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "version": "0.1.12"
+}
